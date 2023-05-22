@@ -10,9 +10,9 @@ function Menu() {
     <section>
       <h3 style={{ textDecoration: "underline" }}>El menú de hoy es:</h3>
 
-      <Card />
-      <Card />
-      <Card />
+      <Card dish="Tequeños" img={tequeñosImg} patata={"yellow"}/>
+      <Card dish="Pabellón Criollo" img={pabellonImg} patata="blue"/>
+      <Card dish="Dulce de Guayaba" img={guayabaImg} patata="red"/>
 
       {/* <div className="card" style={cardStyle}>
         <h5>Tequeños</h5>
